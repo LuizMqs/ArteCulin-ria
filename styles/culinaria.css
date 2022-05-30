@@ -1,0 +1,112 @@
+/* Background principal */
+.culinaria {
+    height: fit-content;
+    width: 88vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.7vw;
+}
+
+.culinaria article {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    gap: 0.7vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.culinaria .box-culinaria-one > div {
+    width: 107vh;
+    height: 80vh;
+    background-color: white;
+}
+
+.darker {
+    background-color: transparent;
+}
+
+.darker:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.culinaria .box-culinaria-one > div:last-of-type {
+    width: 72.5vh;
+    height: 80vh;
+    background-color: white;
+}
+
+.culinaria .box-culinaria-two > div {
+    width: 89.75vh;
+    height: 70vh;
+    background-color: white;
+}
+
+.culinaria .box-culinaria-two > div:last-of-type {
+    width: 89.75vh;
+    height: 70vh;
+    background-color: white;
+}
+
+.culinaria .box-culinaria-tree > div {
+    width: 100vh;
+    height: 75vh;
+    background-color: white;
+}
+
+.culinaria .box-culinaria-tree > div:last-of-type {
+    width: 79.5vh;
+    height: 75vh;
+    background-color: white;
+}
+
+.culinaria .box-culinaria-tree > div:last-of-type .big-space {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    line-height: 50px;
+    font-weight: 100;
+    text-align: left;
+}
+
+#img-culi-one {
+    background-image: url(../images/img-culi-one.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-culi-two {
+    background-image: url(../images/img-culi-two.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-culi-tree {
+    background-image: url(../images/img-culi-tree.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-culi-four {
+    background-image: url(../images/img-culi-four.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-culi-five {
+    background-image: url(../images/img-culi-five.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-culi-six {
+    background-color: rgb(39, 58, 78);
+}

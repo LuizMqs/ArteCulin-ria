@@ -1,0 +1,71 @@
+/* Background principal */
+#background-portfolio {
+    width: 88vw;
+    height: fit-content;
+    margin-top: 15vh;
+    display: flex;
+    gap: 0.7vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#background-portfolio section {
+    height: 110vh;
+    width: 59.4vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#background-portfolio section article {
+    height: 110vh;
+    width: 59.4vh;
+    background-color: rgba(0, 40, 63, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 25px;
+    padding-top: 80px;
+}
+
+#background-portfolio section article a {
+    text-decoration: none;
+    color: white;
+}
+
+.one-port {
+    background-image: url(../images/one-port.webp);
+}
+
+.two-port {
+    background-image: url(../images/two-port.webp);
+}
+
+.tree-port {
+    background-image: url(../images/tree-port.webp);
+}
+
+#background-portfolio section h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5.5vh;
+    font-weight: 100;
+    text-align: center;
+}
+
+.next-port {
+    height: 5.3vh;
+    width: 15vh;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+.next-port:hover {
+    background-color: rgb(0, 40, 63);
+    border-color: rgb(0, 40, 63);
+    transition: 0.35s;
+    cursor: pointer;
+}

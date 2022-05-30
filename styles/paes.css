@@ -1,0 +1,28 @@
+/* Background principal */
+#img-one3 {
+    background-image: url(../images/img-one3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-two3 {
+    background-image: url(../images/img-two3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-tree3 {
+    background-image: url(../images/img-tree3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-four3 {
+    background-image: url(../images/img-four3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
